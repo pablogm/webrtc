@@ -8,17 +8,17 @@ WebRTC multi conference implementation using Noje.js (Socket.io) as signaling se
 
 ## How to install 
 
-1. Intall node legacy
+- Intall node legacy
 ```
 apt-get install nodejs-legacy
 ```
 
-2. Intall dependencies
+- Intall dependencies
 ```
 npm install
 ```
 
-3. Start node server
+- Start node server
 ```
 node index.js
 ```
@@ -27,7 +27,7 @@ node index.js
 
 ## Local server setup
 
-1. Create a record within the **hosts** file with a domain like *.domain.com that points to the localhost (I’m using you will use a subdomain)
+- Create a record within the **hosts** file with a domain like *.domain.com that points to the localhost (I’m using you will use a subdomain)
 ```
 sudo nano /etc/hosts
 ```
@@ -35,18 +35,23 @@ sudo nano /etc/hosts
 127.0.0.1 my.domain.com
 ```
 
-2. Setup your local subdomain within the **server.js** file
+- Setup your local subdomain within the **server.js** file
 ```javascript
 expressApp.use(vhost('my.domain.com', function (req, res, next)
 ```
 
-4. Setup your local cert and key paths within the **config.json** file
+- Setup your local cert and key paths within the **config.json** file
 ```javascript
 "KEY_LOCAL": "my_path_to_key_file",
 "CERT_LOCAL": "my_path_to_crt_file"
 ```
 
-5. Start the node server and connect to 
+- Install the vHost module
+```javascript
+npm install vhost
+```
+
+- Start the node server and connect to 
 
 [https://my.domain.com:5555/](https://my.domain.com:5555/)
 
