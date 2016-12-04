@@ -1,5 +1,7 @@
 # WebRTC
 
+<img src="./img/webrtc_logo.png" height="100"/> <img src="./img/node_logo.png" height="100"/>
+
 ## Description
 WebRTC multi conference implementation using Noje.js (Socket.io) as signaling server
 
