@@ -152,3 +152,7 @@ When we have session with n peers each of these n peers should establish n-1 RTC
 This means that his video stream will be encoded n-1 times and will be sent n-1 times through the network. 
 This is very inefficient and is almost impractical in production, when communication between multiple parties is required. 
 Solution for this problem is the usage of WebRTC gateway, e.g. I’m using Janus.
+
+
+## License
+[MIT License](https://github.com/pablogm/webrtc/blob/master/LICENSE)
