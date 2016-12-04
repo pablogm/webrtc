@@ -1,0 +1,8 @@
+{
+  "PORT": 5555,
+  "KEY": "/etc/apache2/ssl/apache.key",
+  "CERT": "/etc/apache2/ssl/apache.crt",
+  "CA": "/etc/apache2/ssl/intermediate.crt",
+  "KEY_LOCAL": "YOUR_LOCAL_KEY",
+  "CERT_LOCAL": "YOUR_LOCAL_CRT"
+}
