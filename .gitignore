@@ -1,0 +1,54 @@
+# Mac OSX
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Libs
+vendor/
+
+# NetBeans
+
+nbproject/
+build/
+nbbuild/
+#dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+/services/nbproject/private/
+
+# Logs
+logs/
+
+# README
+README/
+
+# Temp back files
+*.bak
+
+# Node
+node_modules/
